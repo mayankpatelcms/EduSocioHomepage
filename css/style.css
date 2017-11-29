@@ -1,0 +1,47 @@
+
+* {
+box-sizing: border-box;
+}
+
+*:focus {
+	outline: none;
+}
+html {
+  font-family: 'Quicksand', sans-serif;
+  
+}
+body {
+font-family: 'sans-serif', Roboto;
+background: url('https://static.pexels.com/photos/159621/open-book-library-education-read-159621.jpeg') center center fixed;
+-webkit-background-size: cover;
+opacity: 2;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5em;
+}
+.logoStart {
+  font-size: 2em;
+  color: #396bbc;
+  left: 8em;
+}
+
+strong, b {
+  color: #000;
+}
+a:visited {
+  color: #7759ae;
+}
+a {
+  color: #245dc1;
+  text-decoration: none;
+}
+a:focus {
+  color: rgba(36, 94, 193, 0.54)
+}
